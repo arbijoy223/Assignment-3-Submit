@@ -84,19 +84,19 @@
                 </div>
             </div>
             <div>
-                <button class="btn btn-square btn-ghost lg:hidden md:hidden">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      class="inline-block h-5 w-5 stroke-current">
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
-                  </button>
+													<button class="btn btn-square btn-ghost text-green-300 lg:hidden md:hidden">
+														<svg
+																xmlns="http://www.w3.org/2000/svg"
+																fill="none"
+																viewBox="0 0 24 24"
+																class="inline-block h-5 w-5 stroke-current">
+																<path
+																		stroke-linecap="round"
+																		stroke-linejoin="round"
+																		stroke-width="2"
+																		d="M4 6h16M4 12h16M4 18h16"></path>
+														</svg>
+												</button>
             </div>
         </nav>
 
@@ -104,20 +104,41 @@
             <h2 class="text-4xl font-bold my-5">Freshness <span class="text-green-500">You Can<br>
                 Count</span> On, Prices You’ll Love!</h2>
             <p class="my-2 lg:w-1/2 mx-auto">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
-            <img class="lg:w-2/3 mx-auto" src="./c2-assets/hero-vegetables.png" alt="">
+            <img class="lg:w-2/3 mx-auto animate-pulse" src="./c2-assets/hero-vegetables.png" alt="">
         </div>
     </header>
 
+		<section>
+	
+			<div class="hero bg-base-200 min-h-screen p-2">
+				<div class="hero-content flex-col lg:flex-row lg:space-x-5">
+						<img class="w-[100%] lg:w-[30%] rounded-xl"
+								src="./c2-assets/photo-1566842600175-97dca489844f.avif"
+								class="max-w-sm rounded-lg " />
+						<div class="lg:w-1/2">
+								<h1 class="text-5xl font-bold ">Cauliflower</h1>
+								<p class="py- text-xl lg:mt-4">
+									It is one of several vegetables cultivated from the species Brassica oleracea in the genus Brassica, which is in the Brassicaceae (or mustard) family.
+
+									An annual plant that reproduces by seed, the cauliflower head is composed of a (generally) white inflorescence meristem. Cauliflower heads resemble those in broccoli, which differs in having flower buds as the edible portion.
+								</p>
+								<button class="btn btn-primary my-4">Read more</button>
+						</div>
+				</div>
+		</div>
+
+</section>
+
     <main class="my-15">
 
-        <section class="lg:container mx-auto">
+        <section class="lg:container mx-auto px-3">
             <p class="text-3xl font-bold text-green-500 my-8">Services</p>
             <div class="flex flex-col lg:flex-row gap-6">
 
                 <div class="card bg-[#EFEBE3] text-center">
                     <div class="card-body">
                     <figure class="">
-                        <img class="bg-white rounded-full w-1/2"
+                        <img class="bg-white rounded-full w-[50%]"
                           src="./c2-assets/service.png"
                           alt="" />
                       </figure>
@@ -155,34 +176,37 @@
 
         </section>
 
-        <section class="lg:my-20 my-10 bg-[#EFEBE3] lg:py-10 lg:px-8">
+        <section class="lg:my-20 my-10 bg-[#EFEBE3] lg:py-10 lg:px-3">
             <h2 class="font-bold text-4xl my-4 p-4 text-green-600">Popular Products</h2>
 
-            <div  class="flex lg:flex-row flex-col gap-4 p-4 my-4 " >
+            <div  class="flex lg:flex-row flex-col gap-4 p-4 my-4" >
 
-            <div class="relative bg-gradient-to-r from-green-500 to-green-200  lg:w-[40%] py-3 px-3 lg:py-10 lg:px-10 rounded-lg">
-                <div class=" pt-8">  <h2 class="text-4xl text-white">30% OFF</h2>
-                    <p class="my-3">Discover something new.try what we serve to our customer</p>
+            <div class="relative bg-gradient-to-r from-[#53DB3A] to-white  lg:w-[40%] py-3 px-3 lg:py-10 lg:px-10 rounded-lg">
+                <div class="lg:pt-8">  <h2 class="text-4xl text-white font-bold">30% OFF</h2>
+                    <p class="my-3 w-[65%] lg:w-full ">Discover something new.try what we serve to our customer</p>
                     <button class="bg-white rounded-md px-5 py-2 my-3 font-bold">Buy Now</button></div>
               
-                    <div class="absolute w-1/2 bottom-[10px] right-1"> 
+                    <div class="absolute w-[40%] lg:w-[60%] bottom-[10px] right-1"> 
                 <img src="./c2-assets/vegetable-offer.png" alt="">
               </div>
               
           </div>
 
-            <div class="grid grid-cols-2 lg:grid-cols-3 gap-x-2 gap-y-5 lg:my-0 my-3">
+            <div class="grid grid-cols-2 lg:grid-cols-3  gap-x-3 gap-y-5 lg:my-0 my-3">
 
                 <!-- choto container -->
             <div class="bg-white p-3 rounded-xl">
                 <div class="flex gap-x-3 items-center justify-center">
+															
                         <img class="bg-[#EFEBE3] rounded-lg w-[70%] lg:w-1/2 mx-auto" src="./c2-assets/Group 16.png" alt="">
-                    <div>
+																					
+                    <div class="">
                         <div class="rating">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />4.5   
-                          </div>
+																											</div>
                         <h1>Onion 1KG</h1>
                         <p>$59.00</p>
+																							
                     </div>
                 </div>
             </div>  
@@ -191,12 +215,12 @@
                 <!-- choto container -->
                 <div class="bg-white p-3 rounded-xl">
                     <div class="flex gap-x-3 items-center justify-center">
-                            <img class="bg-[#EFEBE3] rounded-lg w-[70%] lg:w-1/2 mx-auto" src="./c2-assets/image 41.png" alt="">
-                        <div>
+                            <img class="bg-[#EFEBE3] rounded-lg w-[70%] lg:w-[50%] mx-auto" src="./c2-assets/image 41.png" alt="">
+                        <div class="">
                             <div class="rating">
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />4.5   
-                              </div>
-                            <h1>Onion 1KG</h1>
+                              	</div>
+                            <h2>Onion 500g</h2>
                             <p>$59.00</p>
                         </div>
                     </div>
@@ -330,14 +354,13 @@
                     <div class="flex bg-[#102861] rounded-xl p-5">
                         <div class="">
                             <img class="" src="./c2-assets/india-gate-logo.png" alt="">
-                            <button class="bg-[#2A4D97] px-4 py-3 text-white rounded-xl my-5">World’s No.1 Rice</button>
+                            <button class="bg-[#2A4D97] px-3 py-3 text-white rounded-xl my-5">World’s No.1 Rice</button>
                             <h2 class="text-2xl text-white my-3">UP to <span class="font-bold">40% OFF</span></h2>
                         </div>
 
                         <div>
                             <img src="./c2-assets/india-gate-mock-up.png" alt="">
-                        </div>
-                      
+                        </div>                
 
      </div>
 
@@ -345,13 +368,13 @@
                   
                     
 <!-- challange part -->
-<div class="absolute top-[790px] left-5 right-5 lg:top-[500px] bg-[#EFEBE3] p-5 flex flex-col lg:flex-row space-x-3 rounded-xl">
+<div class="absolute top-[790px] left-5 right-5 lg:top-[480px] bg-[#EFEBE3] p-5 flex flex-col lg:flex-row space-x-3 rounded-xl">
     <img class="w-[80%] lg:[] mx-auto" src="./c2-assets/vegetable-busket.png" alt="">
     <div class="lg:pt-[80px] p-5">
-        <h2 class="text-xl lg:text-3xl lg:my-3 my-1">Get Grocery News!</h2>
-        <p class="lg:my-3 my-1 lg:w-1/2">Exclusive training tips, ticks, product deals and more.</p>
+        <h2 class="text-xl lg:text-3xl lg:my-3 my-1 font-bold">Get Grocery News!</h2>
+        <p class="lg:my-3 my-1 lg:w-">Exclusive training tips, ticks, product deals and more.</p>
         <input type="text" placeholder="Enter Email" class="lg:my-3 input input-bordered w-full max-w-xs" />
-        <button class="btn btn-success bg-green-700 lg:my-3 my-2">Subscribe</button>
+        <button class="btn btn-success bg-[#179800] lg:my-3 my-2 text-white">Subscribe</button>
     </div>
 </div>
  
@@ -365,7 +388,7 @@
           <img class="" src="./c2-assets/logo-footer.png" alt="">
           <p>Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
         </nav>
-        <nav class="text-white">
+        <nav class="text-white space-y-3">
        
           <a class="link link-hover">Product</a>
           <a class="link link-hover">Service</a>
